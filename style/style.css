@@ -1,7 +1,6 @@
 html {
     margin: 0;
     padding: 0;
-    transition: 1s;
 }
 
 #users-container > h1 {
@@ -39,6 +38,7 @@ html {
     width: 400px;
     font-size: 25px;
 }
+
 #home-container > ul > li > a > button:hover {
     border-color: #2bf8bb;
     color: #2bf8bb;

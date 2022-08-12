@@ -3,9 +3,9 @@ let paragraph = document.getElementById('form-result')
 
 form.onsubmit = function(event) {
 event.preventDefault()
-let data = {nombre:document.getElementById('autocomplete-input1').value,
+let data = {name:document.getElementById('autocomplete-input1').value,
             email:document.getElementById('autocomplete-input2').value,
             msj:document.getElementById('textarea').value
         }
-paragraph.innerHTML = `Nombre: ${data.nombre} email: ${data.email} message: ${data.msj}`
+paragraph.innerHTML = `Name: ${data.nombre} email: ${data.email} message: ${data.msj}`
 }
